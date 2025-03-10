@@ -1,5 +1,18 @@
 # nestjs-template
 
+## 0.1.0
+
+### Minor Changes
+
+- feat: adiciona modulo work.module.ts
+- feat: adiciona servico work.service.ts
+- feat: adiciona controlador work.controller.ts
+
+### Patch Changes
+
+- chore: renomeia nome do projeto em package.json e docker-compose.yml
+- build: adiciona dotenv
+
 ## 0.0.2
 
 ### Patch Changes

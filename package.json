@@ -1,6 +1,6 @@
 {
-  "name": "nestjs-template",
-  "version": "0.0.2",
+  "name": "back-gestao-biblioteca",
+  "version": "0.1.0",
   "description": "",
   "author": "",
   "private": true,
@@ -29,6 +29,7 @@
     "@nestjs/common": "^11.0.1",
     "@nestjs/core": "^11.0.1",
     "@nestjs/platform-express": "^11.0.1",
+    "dotenv": "^16.4.7",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.1"
   },
