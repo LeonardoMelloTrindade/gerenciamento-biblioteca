@@ -1,4 +1,10 @@
-# nestjs-template
+# back-gestao-biblioteca
+
+## 0.1.1
+
+### Patch Changes
+
+- 8513b5e: chore: renomeia nome de projeto no CHANGELOG.md
 
 ## 0.1.0
 
