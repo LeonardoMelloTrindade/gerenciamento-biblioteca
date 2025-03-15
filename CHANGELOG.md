@@ -1,5 +1,20 @@
 # back-gestao-biblioteca
 
+## 0.2.0
+
+### Minor Changes
+
+- fbfb576: feat: adiciona metodos para querys em work.controller.ts
+- fbfb576: feat: adiciona rotas get e post no controller work.controller.ts
+
+### Patch Changes
+
+- 6e023a4: chama prisma.service.ts em prisma.module.ts
+- 6e023a4: build: adiciona class-validator e class-transfomer no peckage.json e yarn.lock
+- e147f65: feat: adiciona work.dto.ts
+- 6b56b34: feat: adiciona migrations através do schema.prisma
+- 6e023a4: feat: adiciona prisma.service.ts
+
 ## 0.1.1
 
 ### Patch Changes
