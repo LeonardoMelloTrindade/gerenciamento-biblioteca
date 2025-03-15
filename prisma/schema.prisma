@@ -18,9 +18,9 @@ model Work {
   id String @id @default(uuid())
   title String @db.VarChar(255)
   description String @db.Text
-  editor String @db.VarChar(255)
+  publisher String? @db.VarChar(255)
   author String @db.VarChar(255) @map("authors")
-  image String @db.VarChar(255)
+  image String? @db.VarChar(255)
   createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  updatedAt DateTime? @updatedAt
 } 
