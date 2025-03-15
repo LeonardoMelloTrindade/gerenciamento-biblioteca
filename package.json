@@ -1,6 +1,6 @@
 {
   "name": "back-gestao-biblioteca",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "",
   "author": "",
   "private": true,
@@ -29,7 +29,11 @@
     "@nestjs/common": "^11.0.1",
     "@nestjs/core": "^11.0.1",
     "@nestjs/platform-express": "^11.0.1",
+    "@prisma/client": "^6.5.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
     "dotenv": "^16.4.7",
+    "prisma": "^6.5.0",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.1"
   },
