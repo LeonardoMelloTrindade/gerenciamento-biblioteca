@@ -3,19 +3,11 @@ import { IsString, IsNotEmpty, IsOptional } from 'class-validator';
 export class WorksDto {
   @IsString()
   @IsNotEmpty()
-  id: string;
-
-  @IsString()
-  @IsNotEmpty()
   title: string;
 
   @IsString()
-  @IsOptional()
+  @IsNotEmpty()
   description: string;
-
-  @IsString()
-  @IsOptional()
-  publisher: string;
 
   @IsString()
   @IsNotEmpty()
@@ -23,5 +15,9 @@ export class WorksDto {
 
   @IsString()
   @IsOptional()
-  image: string;
+  publisher?: string | null;
+
+  @IsString()
+  @IsOptional()
+  image?: string | null;
 }

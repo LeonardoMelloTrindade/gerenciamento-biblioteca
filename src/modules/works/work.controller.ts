@@ -1,5 +1,6 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Post, Body } from '@nestjs/common';
 import { WorkService } from './work.service';
+import { WorksDto } from './work.dto';
 
 @Controller('/works')
 export class WorkController {
@@ -8,5 +9,10 @@ export class WorkController {
   @Get()
   getWorks() {
     return this.workService.getWorks();
+  }
+
+  @Post()
+  createWork(@Body() dto: WorksDto) {
+    return this.workService.createWork(dto);
   }
 }
