@@ -23,4 +23,14 @@ model Work {
   image String? @db.VarChar(255)
   createdAt DateTime @default(now())
   updatedAt DateTime? @updatedAt
-} 
+}
+
+model User {
+  @@map("users")
+  id String @id @default(uuid())
+  name String @db.VarChar(255)
+  email String @db.VarChar(255)
+  password String @db.Char(255)
+  createdAt DateTime @default(now())
+  updatedAt DateTime? @updatedAt
+}
