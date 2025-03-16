@@ -1,5 +1,13 @@
 # back-gestao-biblioteca
 
+## 0.2.1
+
+### Patch Changes
+
+- 86faa73: chore: remove arquivo app.controller.spec.ts
+- 86faa73: chore: remove arquivo app.service.ts
+- 86faa73: chore: remove arquivo app.controller.ts
+
 ## 0.2.0
 
 ### Minor Changes
