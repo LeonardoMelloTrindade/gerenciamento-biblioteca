@@ -8,3 +8,4 @@ services:
     volumes:
       - .:/app
     command: ["yarn", "start:dev"]
+    network_mode: "host"
