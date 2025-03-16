@@ -10,8 +10,8 @@ export class WorkService {
     try {
       const works: WorksDto[] = await this.prisma.work.findMany();
       return works;
-    } catch (error) {
-      throw new Error('Erro ao buscar as obras literárias', error);
+    } catch {
+      throw new Error('Erro ao buscar as obras literárias');
     }
   }
 
@@ -21,8 +21,8 @@ export class WorkService {
         where: { id },
       });
       return work;
-    } catch (error) {
-      throw new Error('Erro ao buscar a obra literária', error);
+    } catch {
+      throw new Error('Erro ao buscar a obra literária');
     }
   }
 
@@ -32,8 +32,8 @@ export class WorkService {
         data: dto,
       });
       return work;
-    } catch (error) {
-      throw new Error('Erro ao criar a obra literária', error);
+    } catch {
+      throw new Error('Erro ao criar a obra literária');
     }
   }
 
@@ -44,8 +44,8 @@ export class WorkService {
         data: dto,
       });
       return work;
-    } catch (error) {
-      throw new Error('Erro ao atualizar a obra literária', error);
+    } catch {
+      throw new Error('Erro ao atualizar a obra literária');
     }
   }
 
@@ -55,8 +55,8 @@ export class WorkService {
         where: { id },
       });
       return work;
-    } catch (error) {
-      throw new Error('Erro ao deletar a obra literária', error);
+    } catch {
+      throw new Error('Erro ao deletar a obra literária');
     }
   }
 }
