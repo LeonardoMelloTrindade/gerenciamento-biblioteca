@@ -1,5 +1,11 @@
 # back-gestao-biblioteca
 
+## 0.2.2
+
+### Patch Changes
+
+- 5bb548c: chore: adiciona host no dokcer-compose.yml para docker funcionar
+
 ## 0.2.1
 
 ### Patch Changes
