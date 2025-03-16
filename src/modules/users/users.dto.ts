@@ -1,15 +1,15 @@
-import { IsString, IsOptional, IsNotEmpty } from 'class-validator';
+import { IsString } from 'class-validator';
 
 export class UsersDto {
   @IsString()
-  @IsOptional()
-  name?: string | null;
+  id: string;
 
   @IsString()
-  @IsNotEmpty()
+  name: string;
+
+  @IsString()
   email: string;
 
   @IsString()
-  @IsNotEmpty()
   password: string;
 }
