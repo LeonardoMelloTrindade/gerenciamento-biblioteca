@@ -1,5 +1,18 @@
 # back-gestao-biblioteca
 
+## 0.3.0
+
+### Minor Changes
+
+- 68330a2: feat: adiciona rota DELETE no work.controller.ts
+- 68330a2: feat: adiciona rota PUT no work.controller.ts
+- 68330a2: feat: adiciona metodos getWork, updateWork, deleteWork em work.service.ts
+- 68330a2: feat: adiciona rota GET para buscar uma obra em work.controller.ts
+
+### Patch Changes
+
+- 68330a2: feat: adiciona tratativas de erros para cada rota em work.service.ts
+
 ## 0.2.2
 
 ### Patch Changes
