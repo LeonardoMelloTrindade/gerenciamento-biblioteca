@@ -1,72 +1,65 @@
 # Título do projeto
 
-Um parágrafo da descrição do projeto vai aqui
+O projeto é um sistema de gerenciamento de biblioteca com um CRUD completo para livros, permitindo cadastrar, consultar, atualizar e remover registros de forma eficiente. Com uma estrutura robusta e interface intuitiva, facilita o controle do acervo e o acesso às informações.
 
 ## 🚀 Começando
 
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+Faça o clone do repositório
+```
+git clone https://github.com/LeonardoMelloTrindade/gerenciamento-biblioteca.git
+```
 
 ### 📋 Pré-requisitos
 
 De que coisas você precisa para instalar o software e como instalá-lo?
 
-```
-Dar exemplos
-```
+* [Node](https://nodejs.org/pt) - Ambiente de execução
+* [MySQL](https://www.mysql.com/) - Bando de dados
+* [Docker](https://www.docker.com/) - Gerenciador de Containers
 
 ### 🔧 Instalação
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+O passo a passo para instalar o necessário do projeto
 
-Diga como essa etapa será:
-
+Instalar as dependências
 ```
-Dar exemplos
-```
-
-E repita:
-
-```
-Até finalizar
+yarn
 ```
 
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
-
-## ⚙️ Executando os testes
-
-Explicar como executar os testes automatizados para este sistema.
-
-### 🔩 Analise os testes de ponta a ponta
-
-Explique que eles verificam esses testes e porquê.
+Adicionar as migrations no banco
 
 ```
-Dar exemplos
+npx prisma migrate dev
+```
+### ⌨️Rodar Projeto
+
+Para rodar o projeto:
+
+```
+yarn start:dev
+```
+
+Para rodar via Docker
+
+```
+yarn docker:start:dev
 ```
 
 ### ⌨️ E testes de estilo de codificação
 
-Explique que eles verificam esses testes e porquê.
+Para rodar o eslint use:
 
 ```
-Dar exemplos
+yarn lint
 ```
 
 ## 🛠️ Construído com
 
 Mencione as ferramentas que você usou para criar seu projeto
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
-
-
-## 📌 Versão
-
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis
+* [NestJs](https://nestjs.com/) - O framework back-end usado
+* [Changeset](https://github.com/changesets/changesets) - Gerenciador de versionamento
 
 ## ✒️ Autores
 
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
-
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
+* **Leonardo Mello Trindade** - *Desenvedor* - [LeonardoMelloTrindade](https://github.com/LeonardoMelloTrindade)
