@@ -1,5 +1,11 @@
 # back-gestao-biblioteca
 
+## 0.3.1
+
+### Patch Changes
+
+- 1430adf: chore: atualiza README.md
+
 ## 0.3.0
 
 ### Minor Changes
